@@ -27,7 +27,8 @@ If you have issue with adding gfortran with your Path on windows, this website m
     - pip3 install ipympl
     - jupyter labextension install @jupyter-widgets/jupyterlab-manager
     - jupyter labextension install jupyter-matplotlib
-    - jupyter nbextension enable --py widgetsnbextension
+    - jupyter nbextension install --user --py widgetsnbextension
+    - jupyter nbextension enable --user --py widgetsnbextension
 - Restart JupyterLab
 
 ### Local with conda
@@ -43,7 +44,7 @@ If you have issue with adding gfortran with your Path on windows, this website m
 
 ### Compiling locally Fortran functions with f2py
 - Required the first time 'homogenization_main.ipynb' is used
-- Open a new terminal on JupyterLab, and run:
+- Open a new terminal on JupyterLab, go in the directory of the .ipynb file where you will find fortran_tools.f and run:
     - f2py -c fortran_tools.f -m fortran_tools
 - For developpers, this step will be performed when changing fortran_tools.f, which may never happen.
 
