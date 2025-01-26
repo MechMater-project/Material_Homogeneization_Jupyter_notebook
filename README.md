@@ -98,6 +98,6 @@ Computes optimal microstructure parameters to reach a given target homogenized b
 
 - 'homogenization_main.ipynb' and 'homogenization_visco.ipynb'
 
-The first handle only elastic cases, whereas the second can compute linear viscoelastic homogenized behavior for **single spherical isotropic inclusion**.
+The first notebook handles elastic cases only, with isotropic or anisotropic spherical or ellipsoidal inclusions, with possibly the presence of an interphase for spherical inclusions, the matrix being isotropic. The second notebook considers elastic inclusion and linear viscoelastic matrix which storage and loss moduli are given in terms of temperature or frequency. 
 
-The homogenization_visco.ipynb will be released soon
+Please contact julie . diani [ ] polytechnique . edu if you have problems running either of the notebooks or if you have improved or corrected the notebooks. We value your inputs.
